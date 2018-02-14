@@ -8,9 +8,12 @@
 
 import Foundation
 
-class SwiftFileNoObjC {
+public class SwiftFileNoObjC {
     
-    func describe() {
+    public init () {}
+    
+    public static func describe() {
+        SwiftFile.describe()
         print("This is a swift file from the static framework that does not import any objc")
     }
 }

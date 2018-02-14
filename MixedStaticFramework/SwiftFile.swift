@@ -8,9 +8,11 @@
 
 import Foundation
 
-class SwiftFile {
+public class SwiftFile {
     
-    func describe() {
+    public init () {}
+    
+    public static func describe() {
         print("get schwifty")
     }
 }
