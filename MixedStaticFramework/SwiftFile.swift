@@ -11,7 +11,6 @@ import Foundation
 class SwiftFile {
     
     func describe() {
-        let objC = ObjCFile()
-        print("Printing.. <\(objC)>")
+        print("get schwifty")
     }
 }

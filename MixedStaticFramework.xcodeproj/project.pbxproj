@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		198058E82034EFEE003DD86C /* SwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198058E72034EFEE003DD86C /* SwiftFile.swift */; };
-		198058ED2034F042003DD86C /* ObjCFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 198058EC2034F042003DD86C /* ObjCFile.m */; };
 		198058EF2034F62B003DD86C /* SwiftFileNoObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198058EE2034F62B003DD86C /* SwiftFileNoObjC.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,10 +25,7 @@
 
 /* Begin PBXFileReference section */
 		198058DA2034EFA4003DD86C /* libMixedStaticFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMixedStaticFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		198058E62034EFEE003DD86C /* MixedStaticFramework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixedStaticFramework-Bridging-Header.h"; sourceTree = "<group>"; };
 		198058E72034EFEE003DD86C /* SwiftFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFile.swift; sourceTree = "<group>"; };
-		198058EB2034F042003DD86C /* ObjCFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCFile.h; sourceTree = "<group>"; };
-		198058EC2034F042003DD86C /* ObjCFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCFile.m; sourceTree = "<group>"; };
 		198058EE2034F62B003DD86C /* SwiftFileNoObjC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFileNoObjC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,9 +61,6 @@
 			children = (
 				198058E72034EFEE003DD86C /* SwiftFile.swift */,
 				198058EE2034F62B003DD86C /* SwiftFileNoObjC.swift */,
-				198058EB2034F042003DD86C /* ObjCFile.h */,
-				198058EC2034F042003DD86C /* ObjCFile.m */,
-				198058E62034EFEE003DD86C /* MixedStaticFramework-Bridging-Header.h */,
 			);
 			path = MixedStaticFramework;
 			sourceTree = "<group>";
@@ -132,7 +125,6 @@
 			files = (
 				198058EF2034F62B003DD86C /* SwiftFileNoObjC.swift in Sources */,
 				198058E82034EFEE003DD86C /* SwiftFile.swift in Sources */,
-				198058ED2034F042003DD86C /* ObjCFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +244,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "MixedStaticFramework/MixedStaticFramework-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -268,7 +260,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "MixedStaticFramework/MixedStaticFramework-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
