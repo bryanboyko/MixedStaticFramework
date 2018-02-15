@@ -9,7 +9,9 @@ Pod::Spec.new do |s|
   s.author           = { "Bryan" => "bryan.boyko@gmail.com" } 
   s.source           = { :git => "https://github.com/bryanboyko/MixedStaticFramework.git", :tag => s.version.to_s } 
   s.license          = { :type => "MIT", :file => "LICENSE" } 
- 
+
+  s.xcconfig         = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
+  s.libraries        = 'xml2' 
   s.pod_target_xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '$(PODS_TARGET_SRCROOT)/MixedStaticFramework/MixedStaticFramework-Bridging-Header.h' } 
   s.swift_version    = "4.0" 
  
