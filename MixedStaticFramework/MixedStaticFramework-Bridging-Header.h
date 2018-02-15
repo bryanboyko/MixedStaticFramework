@@ -10,5 +10,11 @@
 #define MixedStaticFramework_Bridging_Header_h
 
 #import "ObjCFile.h"
+#import "MaxMRAIDView.h"
+#import "MaxMRAIDInterstitial.h"
+#import "MaxMRAIDServiceDelegate.h"
+#import "MaxReachability.h"
+#import "MaxVASTViewController.h"
+#import "MaxVASTError.h"
 
 #endif /* MixedStaticFramework_Bridging_Header_h */
