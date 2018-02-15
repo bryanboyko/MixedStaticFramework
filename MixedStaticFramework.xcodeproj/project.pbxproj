@@ -160,6 +160,7 @@
 		199C6089203615A600B4EC11 /* MAXLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAXLogger.swift; sourceTree = "<group>"; };
 		199C608B203615A600B4EC11 /* MAXAdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAXAdView.swift; sourceTree = "<group>"; };
 		199C608C203615A600B4EC11 /* MAXInterstitialAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAXInterstitialAd.swift; sourceTree = "<group>"; };
+		199C60B9203616B000B4EC11 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +179,7 @@
 			children = (
 				198058DC2034EFA4003DD86C /* MixedStaticFramework */,
 				198058DB2034EFA4003DD86C /* Products */,
+				199C60B8203616B000B4EC11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +196,8 @@
 			children = (
 				199C6024203615A600B4EC11 /* Core */,
 				1980590520350ECA003DD86C /* ObjCFile.h */,
+				199C6047203615A600B4EC11 /* MaxMRAIDView.h */,
+				199C6048203615A600B4EC11 /* MaxMRAIDView.m */,
 				1980590720350ECA003DD86C /* ObjCFile.m */,
 				1980590420350ECA003DD86C /* SwiftFile.swift */,
 				1980590620350ECA003DD86C /* SwiftFileNoObjC.swift */,
@@ -291,8 +295,6 @@
 				199C6044203615A600B4EC11 /* MaxMRAIDSettings.m */,
 				199C6045203615A600B4EC11 /* MaxMRAIDUtil.h */,
 				199C6046203615A600B4EC11 /* MaxMRAIDUtil.m */,
-				199C6047203615A600B4EC11 /* MaxMRAIDView.h */,
-				199C6048203615A600B4EC11 /* MaxMRAIDView.m */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -437,6 +439,14 @@
 				199C608C203615A600B4EC11 /* MAXInterstitialAd.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		199C60B8203616B000B4EC11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				199C60B9203616B000B4EC11 /* libxml2.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -658,6 +668,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -674,6 +685,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
