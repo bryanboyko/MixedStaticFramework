@@ -7,12 +7,3 @@
 //
 
 import Foundation
-
-public class SwiftFile {
-    
-    public init () {}
-    
-    public static func describe() {
-        print("get schwifty")
-    }
-}
