@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.xcconfig         = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   s.libraries        = 'xml2' 
-  s.pod_target_xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '$(PODS_TARGET_SRCROOT)/MixedStaticFramework/Core/MixedStaticFramework-Bridging-Header.h' } 
+  s.pod_target_xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '$(PODS_TARGET_SRCROOT)/MixedStaticFramework/Core/ObjC/MixedStaticFramework-Bridging-Header.h' } 
   s.swift_version    = "4.0" 
  
   s.requires_arc     = true 
