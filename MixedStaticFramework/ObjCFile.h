@@ -10,4 +10,6 @@
 
 @interface ObjCFile : NSObject
 
+- (void)describe;
+
 @end

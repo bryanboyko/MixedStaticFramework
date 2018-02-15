@@ -10,4 +10,8 @@
 
 @implementation ObjCFile
 
+- (void)describe {
+    NSLog(@"ObjcFile");
+}
+
 @end

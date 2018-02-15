@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+public class SwiftFile {
+    
+    public init () {}
+    
+    public static func describe() {
+        
+        let objc = ObjCFile()
+        objc.describe()
+    }
+}
