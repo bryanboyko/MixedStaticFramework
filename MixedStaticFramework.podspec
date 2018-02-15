@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '8.0'
   s.static_framework = true
 
-  s.source_files     = 'MixedStaticFramework/*.{swift,h,m}'
+  s.source_files     = 'MixedStaticFramework/**/*.{swift,h,m}'
 end
