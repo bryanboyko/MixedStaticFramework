@@ -135,8 +135,6 @@
 		199C607A203615A600B4EC11 /* MaxVASTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxVASTViewController.m; sourceTree = "<group>"; };
 		199C607B203615A600B4EC11 /* MaxVASTXMLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxVASTXMLUtil.h; sourceTree = "<group>"; };
 		199C607C203615A600B4EC11 /* MaxVASTXMLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxVASTXMLUtil.m; sourceTree = "<group>"; };
-		199C607D203615A600B4EC11 /* MAX-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MAX-Bridging-Header.h"; sourceTree = "<group>"; };
-		199C607E203615A600B4EC11 /* MAX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAX.h; sourceTree = "<group>"; };
 		199C607F203615A600B4EC11 /* MAXAds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAXAds.swift; sourceTree = "<group>"; };
 		199C6080203615A600B4EC11 /* MAXConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAXConfiguration.swift; sourceTree = "<group>"; };
 		199C6081203615A600B4EC11 /* MAXLocationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAXLocationProvider.swift; sourceTree = "<group>"; };
@@ -252,8 +250,6 @@
 				199C6025203615A600B4EC11 /* Adapters */,
 				199C6029203615A600B4EC11 /* API */,
 				199C602F203615A600B4EC11 /* Base */,
-				199C607D203615A600B4EC11 /* MAX-Bridging-Header.h */,
-				199C607E203615A600B4EC11 /* MAX.h */,
 				199C607F203615A600B4EC11 /* MAXAds.swift */,
 				199C6080203615A600B4EC11 /* MAXConfiguration.swift */,
 				199C6081203615A600B4EC11 /* MAXLocationProvider.swift */,
