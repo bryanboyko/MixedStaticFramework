@@ -68,8 +68,40 @@
 				1980590420350ECA003DD86C /* SwiftFile.swift */,
 				1980590620350ECA003DD86C /* SwiftFileNoObjC.swift */,
 				1980590B20350EE4003DD86C /* MixedStaticFramework-Bridging-Header.h */,
+				199C60202036154600B4EC11 /* Core */,
 			);
 			path = MixedStaticFramework;
+			sourceTree = "<group>";
+		};
+		199C60202036154600B4EC11 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				199C60212036154600B4EC11 /* Base */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		199C60212036154600B4EC11 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				199C60222036154600B4EC11 /* MRAID */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		199C60222036154600B4EC11 /* MRAID */ = {
+			isa = PBXGroup;
+			children = (
+				199C60232036154600B4EC11 /* src */,
+			);
+			path = MRAID;
+			sourceTree = "<group>";
+		};
+		199C60232036154600B4EC11 /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
