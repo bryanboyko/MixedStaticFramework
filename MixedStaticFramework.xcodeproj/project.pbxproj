@@ -108,6 +108,11 @@
 		1917BACF20361E23000D06DE /* MAXLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAXLogger.swift; sourceTree = "<group>"; };
 		1917BAD120361E23000D06DE /* MAXAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAXAdView.swift; sourceTree = "<group>"; };
 		1917BAD220361E23000D06DE /* MAXInterstitialAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAXInterstitialAd.swift; sourceTree = "<group>"; };
+		1917BAD6203637C8000D06DE /* MAXFacebookAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAXFacebookAdapter.swift; sourceTree = "<group>"; };
+		1917BAD7203637C8000D06DE /* MAXFacebookBannerAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAXFacebookBannerAdapter.swift; sourceTree = "<group>"; };
+		1917BAD8203637C8000D06DE /* MAXFacebookInterstitialAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAXFacebookInterstitialAdapter.swift; sourceTree = "<group>"; };
+		1917BADA203637C8000D06DE /* MAXMoPubCustomEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAXMoPubCustomEvent.swift; sourceTree = "<group>"; };
+		1917BADB203637C8000D06DE /* MAXMoPubRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAXMoPubRequestManager.swift; sourceTree = "<group>"; };
 		198058DA2034EFA4003DD86C /* libMixedStaticFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMixedStaticFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		199C60B9203616B000B4EC11 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -315,6 +320,34 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		1917BAD4203637C8000D06DE /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				1917BAD5203637C8000D06DE /* Facebook */,
+				1917BAD9203637C8000D06DE /* MoPub */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		1917BAD5203637C8000D06DE /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				1917BAD6203637C8000D06DE /* MAXFacebookAdapter.swift */,
+				1917BAD7203637C8000D06DE /* MAXFacebookBannerAdapter.swift */,
+				1917BAD8203637C8000D06DE /* MAXFacebookInterstitialAdapter.swift */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		1917BAD9203637C8000D06DE /* MoPub */ = {
+			isa = PBXGroup;
+			children = (
+				1917BADA203637C8000D06DE /* MAXMoPubCustomEvent.swift */,
+				1917BADB203637C8000D06DE /* MAXMoPubRequestManager.swift */,
+			);
+			path = MoPub;
+			sourceTree = "<group>";
+		};
 		198058D12034EFA4003DD86C = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +368,7 @@
 		198058DC2034EFA4003DD86C /* MixedStaticFramework */ = {
 			isa = PBXGroup;
 			children = (
+				1917BAD4203637C8000D06DE /* ThirdParty */,
 				1917BA6D20361E23000D06DE /* Core */,
 			);
 			path = MixedStaticFramework;
