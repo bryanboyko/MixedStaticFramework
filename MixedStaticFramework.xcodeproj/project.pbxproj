@@ -82,10 +82,6 @@
 		199C602C203615A600B4EC11 /* MAXAdResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAXAdResponse.swift; sourceTree = "<group>"; };
 		199C602D203615A600B4EC11 /* MAXAPIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAXAPIConstants.swift; sourceTree = "<group>"; };
 		199C602E203615A600B4EC11 /* MAXUserAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAXUserAgent.swift; sourceTree = "<group>"; };
-		199C6031203615A600B4EC11 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		199C6032203615A600B4EC11 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		199C6034203615A600B4EC11 /* CloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseButton.png; sourceTree = "<group>"; };
-		199C6035203615A600B4EC11 /* mraid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mraid.js; sourceTree = "<group>"; };
 		199C6037203615A600B4EC11 /* max_mraidjs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = max_mraidjs.h; sourceTree = "<group>"; };
 		199C6038203615A600B4EC11 /* MaxMRAIDInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxMRAIDInterstitial.h; sourceTree = "<group>"; };
 		199C6039203615A600B4EC11 /* MaxMRAIDInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxMRAIDInterstitial.m; sourceTree = "<group>"; };
@@ -104,10 +100,6 @@
 		199C6046203615A600B4EC11 /* MaxMRAIDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxMRAIDUtil.m; sourceTree = "<group>"; };
 		199C6047203615A600B4EC11 /* MaxMRAIDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxMRAIDView.h; sourceTree = "<group>"; };
 		199C6048203615A600B4EC11 /* MaxMRAIDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxMRAIDView.m; sourceTree = "<group>"; };
-		199C604A203615A600B4EC11 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		199C604B203615A600B4EC11 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		199C604D203615A600B4EC11 /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
-		199C604E203615A600B4EC11 /* ForwardButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForwardButton.png; sourceTree = "<group>"; };
 		199C6051203615A600B4EC11 /* MaxBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxBrowser.h; sourceTree = "<group>"; };
 		199C6052203615A600B4EC11 /* MaxBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxBrowser.m; sourceTree = "<group>"; };
 		199C6053203615A600B4EC11 /* MaxBrowserControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxBrowserControlsView.h; sourceTree = "<group>"; };
@@ -121,9 +113,6 @@
 		199C605E203615A600B4EC11 /* MaxCommonLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxCommonLogger.m; sourceTree = "<group>"; };
 		199C605F203615A600B4EC11 /* MaxCommonSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxCommonSettings.h; sourceTree = "<group>"; };
 		199C6060203615A600B4EC11 /* MaxCommonSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxCommonSettings.m; sourceTree = "<group>"; };
-		199C6062203615A600B4EC11 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		199C6063203615A600B4EC11 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		199C6065203615A600B4EC11 /* vast_2.0.1.xsd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vast_2.0.1.xsd; sourceTree = "<group>"; };
 		199C6067203615A600B4EC11 /* MaxVAST2Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxVAST2Parser.h; sourceTree = "<group>"; };
 		199C6068203615A600B4EC11 /* MaxVAST2Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxVAST2Parser.m; sourceTree = "<group>"; };
 		199C6069203615A600B4EC11 /* MaxVASTControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxVASTControls.h; sourceTree = "<group>"; };
@@ -195,13 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				199C6024203615A600B4EC11 /* Core */,
-				1980590520350ECA003DD86C /* ObjCFile.h */,
-				199C6047203615A600B4EC11 /* MaxMRAIDView.h */,
-				199C6048203615A600B4EC11 /* MaxMRAIDView.m */,
-				1980590720350ECA003DD86C /* ObjCFile.m */,
-				1980590420350ECA003DD86C /* SwiftFile.swift */,
-				1980590620350ECA003DD86C /* SwiftFileNoObjC.swift */,
-				1980590B20350EE4003DD86C /* MixedStaticFramework-Bridging-Header.h */,
 			);
 			path = MixedStaticFramework;
 			sourceTree = "<group>";
@@ -209,6 +191,64 @@
 		199C6024203615A600B4EC11 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				199C6037203615A600B4EC11 /* max_mraidjs.h */,
+				199C6038203615A600B4EC11 /* MaxMRAIDInterstitial.h */,
+				199C6039203615A600B4EC11 /* MaxMRAIDInterstitial.m */,
+				199C603A203615A600B4EC11 /* MaxMRAIDModalViewController.h */,
+				199C603B203615A600B4EC11 /* MaxMRAIDModalViewController.m */,
+				199C603C203615A600B4EC11 /* MaxMRAIDOrientationProperties.h */,
+				199C603D203615A600B4EC11 /* MaxMRAIDOrientationProperties.m */,
+				199C603E203615A600B4EC11 /* MaxMRAIDParser.h */,
+				199C603F203615A600B4EC11 /* MaxMRAIDParser.m */,
+				199C6040203615A600B4EC11 /* MaxMRAIDResizeProperties.h */,
+				199C6041203615A600B4EC11 /* MaxMRAIDResizeProperties.m */,
+				199C6042203615A600B4EC11 /* MaxMRAIDServiceDelegate.h */,
+				199C6043203615A600B4EC11 /* MaxMRAIDSettings.h */,
+				199C6044203615A600B4EC11 /* MaxMRAIDSettings.m */,
+				199C6045203615A600B4EC11 /* MaxMRAIDUtil.h */,
+				199C6046203615A600B4EC11 /* MaxMRAIDUtil.m */,
+				199C6051203615A600B4EC11 /* MaxBrowser.h */,
+				199C6052203615A600B4EC11 /* MaxBrowser.m */,
+				199C6053203615A600B4EC11 /* MaxBrowserControlsView.h */,
+				199C6054203615A600B4EC11 /* MaxBrowserControlsView.m */,
+				199C6055203615A600B4EC11 /* MaxCommonBackButton.h */,
+				199C6056203615A600B4EC11 /* MaxCommonCloseButton.h */,
+				199C6057203615A600B4EC11 /* MaxForwardButton.h */,
+				199C605A203615A600B4EC11 /* MaxReachability.h */,
+				199C605B203615A600B4EC11 /* MaxReachability.m */,
+				199C605D203615A600B4EC11 /* MaxCommonLogger.h */,
+				199C605E203615A600B4EC11 /* MaxCommonLogger.m */,
+				199C605F203615A600B4EC11 /* MaxCommonSettings.h */,
+				199C6060203615A600B4EC11 /* MaxCommonSettings.m */,
+				1980590520350ECA003DD86C /* ObjCFile.h */,
+				199C6067203615A600B4EC11 /* MaxVAST2Parser.h */,
+				199C6068203615A600B4EC11 /* MaxVAST2Parser.m */,
+				199C6069203615A600B4EC11 /* MaxVASTControls.h */,
+				199C606A203615A600B4EC11 /* MaxVASTControls.m */,
+				199C606B203615A600B4EC11 /* MaxVASTError.h */,
+				199C606C203615A600B4EC11 /* MaxVASTEventProcessor.h */,
+				199C606D203615A600B4EC11 /* MaxVASTEventProcessor.m */,
+				199C606E203615A600B4EC11 /* MaxVASTMediaFile.h */,
+				199C606F203615A600B4EC11 /* MaxVASTMediaFile.m */,
+				199C6070203615A600B4EC11 /* MaxVASTMediaFilePicker.h */,
+				199C6071203615A600B4EC11 /* MaxVASTMediaFilePicker.m */,
+				199C6072203615A600B4EC11 /* MaxVASTModel.h */,
+				199C6073203615A600B4EC11 /* MaxVASTModel.m */,
+				199C6074203615A600B4EC11 /* MaxVASTSchema.h */,
+				199C6075203615A600B4EC11 /* MaxVASTSettings.h */,
+				199C6076203615A600B4EC11 /* MaxVASTSettings.m */,
+				199C6077203615A600B4EC11 /* MaxVASTUrlWithId.h */,
+				199C6078203615A600B4EC11 /* MaxVASTUrlWithId.m */,
+				199C6079203615A600B4EC11 /* MaxVASTViewController.h */,
+				199C607A203615A600B4EC11 /* MaxVASTViewController.m */,
+				199C607B203615A600B4EC11 /* MaxVASTXMLUtil.h */,
+				199C607C203615A600B4EC11 /* MaxVASTXMLUtil.m */,
+				199C6047203615A600B4EC11 /* MaxMRAIDView.h */,
+				199C6048203615A600B4EC11 /* MaxMRAIDView.m */,
+				1980590720350ECA003DD86C /* ObjCFile.m */,
+				1980590420350ECA003DD86C /* SwiftFile.swift */,
+				1980590620350ECA003DD86C /* SwiftFileNoObjC.swift */,
+				1980590B20350EE4003DD86C /* MixedStaticFramework-Bridging-Header.h */,
 				199C6025203615A600B4EC11 /* Adapters */,
 				199C6029203615A600B4EC11 /* API */,
 				199C602F203615A600B4EC11 /* Base */,
@@ -249,174 +289,8 @@
 		199C602F203615A600B4EC11 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				199C6030203615A600B4EC11 /* MRAID */,
-				199C6049203615A600B4EC11 /* SourceKitCommon */,
-				199C6061203615A600B4EC11 /* VAST */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		199C6030203615A600B4EC11 /* MRAID */ = {
-			isa = PBXGroup;
-			children = (
-				199C6031203615A600B4EC11 /* LICENSE */,
-				199C6032203615A600B4EC11 /* README.md */,
-				199C6033203615A600B4EC11 /* res */,
-				199C6036203615A600B4EC11 /* src */,
-			);
-			path = MRAID;
-			sourceTree = "<group>";
-		};
-		199C6033203615A600B4EC11 /* res */ = {
-			isa = PBXGroup;
-			children = (
-				199C6034203615A600B4EC11 /* CloseButton.png */,
-				199C6035203615A600B4EC11 /* mraid.js */,
-			);
-			path = res;
-			sourceTree = "<group>";
-		};
-		199C6036203615A600B4EC11 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				199C6037203615A600B4EC11 /* max_mraidjs.h */,
-				199C6038203615A600B4EC11 /* MaxMRAIDInterstitial.h */,
-				199C6039203615A600B4EC11 /* MaxMRAIDInterstitial.m */,
-				199C603A203615A600B4EC11 /* MaxMRAIDModalViewController.h */,
-				199C603B203615A600B4EC11 /* MaxMRAIDModalViewController.m */,
-				199C603C203615A600B4EC11 /* MaxMRAIDOrientationProperties.h */,
-				199C603D203615A600B4EC11 /* MaxMRAIDOrientationProperties.m */,
-				199C603E203615A600B4EC11 /* MaxMRAIDParser.h */,
-				199C603F203615A600B4EC11 /* MaxMRAIDParser.m */,
-				199C6040203615A600B4EC11 /* MaxMRAIDResizeProperties.h */,
-				199C6041203615A600B4EC11 /* MaxMRAIDResizeProperties.m */,
-				199C6042203615A600B4EC11 /* MaxMRAIDServiceDelegate.h */,
-				199C6043203615A600B4EC11 /* MaxMRAIDSettings.h */,
-				199C6044203615A600B4EC11 /* MaxMRAIDSettings.m */,
-				199C6045203615A600B4EC11 /* MaxMRAIDUtil.h */,
-				199C6046203615A600B4EC11 /* MaxMRAIDUtil.m */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		199C6049203615A600B4EC11 /* SourceKitCommon */ = {
-			isa = PBXGroup;
-			children = (
-				199C604A203615A600B4EC11 /* LICENSE */,
-				199C604B203615A600B4EC11 /* README.md */,
-				199C604C203615A600B4EC11 /* res */,
-				199C604F203615A600B4EC11 /* src */,
-			);
-			path = SourceKitCommon;
-			sourceTree = "<group>";
-		};
-		199C604C203615A600B4EC11 /* res */ = {
-			isa = PBXGroup;
-			children = (
-				199C604D203615A600B4EC11 /* BackButton.png */,
-				199C604E203615A600B4EC11 /* ForwardButton.png */,
-			);
-			path = res;
-			sourceTree = "<group>";
-		};
-		199C604F203615A600B4EC11 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				199C6050203615A600B4EC11 /* Browser */,
-				199C6058203615A600B4EC11 /* External */,
-				199C605C203615A600B4EC11 /* Logger */,
-				199C605F203615A600B4EC11 /* MaxCommonSettings.h */,
-				199C6060203615A600B4EC11 /* MaxCommonSettings.m */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		199C6050203615A600B4EC11 /* Browser */ = {
-			isa = PBXGroup;
-			children = (
-				199C6051203615A600B4EC11 /* MaxBrowser.h */,
-				199C6052203615A600B4EC11 /* MaxBrowser.m */,
-				199C6053203615A600B4EC11 /* MaxBrowserControlsView.h */,
-				199C6054203615A600B4EC11 /* MaxBrowserControlsView.m */,
-				199C6055203615A600B4EC11 /* MaxCommonBackButton.h */,
-				199C6056203615A600B4EC11 /* MaxCommonCloseButton.h */,
-				199C6057203615A600B4EC11 /* MaxForwardButton.h */,
-			);
-			path = Browser;
-			sourceTree = "<group>";
-		};
-		199C6058203615A600B4EC11 /* External */ = {
-			isa = PBXGroup;
-			children = (
-				199C6059203615A600B4EC11 /* Reachability */,
-			);
-			path = External;
-			sourceTree = "<group>";
-		};
-		199C6059203615A600B4EC11 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				199C605A203615A600B4EC11 /* MaxReachability.h */,
-				199C605B203615A600B4EC11 /* MaxReachability.m */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
-		199C605C203615A600B4EC11 /* Logger */ = {
-			isa = PBXGroup;
-			children = (
-				199C605D203615A600B4EC11 /* MaxCommonLogger.h */,
-				199C605E203615A600B4EC11 /* MaxCommonLogger.m */,
-			);
-			path = Logger;
-			sourceTree = "<group>";
-		};
-		199C6061203615A600B4EC11 /* VAST */ = {
-			isa = PBXGroup;
-			children = (
-				199C6062203615A600B4EC11 /* LICENSE */,
-				199C6063203615A600B4EC11 /* README.md */,
-				199C6064203615A600B4EC11 /* res */,
-				199C6066203615A600B4EC11 /* src */,
-			);
-			path = VAST;
-			sourceTree = "<group>";
-		};
-		199C6064203615A600B4EC11 /* res */ = {
-			isa = PBXGroup;
-			children = (
-				199C6065203615A600B4EC11 /* vast_2.0.1.xsd */,
-			);
-			path = res;
-			sourceTree = "<group>";
-		};
-		199C6066203615A600B4EC11 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				199C6067203615A600B4EC11 /* MaxVAST2Parser.h */,
-				199C6068203615A600B4EC11 /* MaxVAST2Parser.m */,
-				199C6069203615A600B4EC11 /* MaxVASTControls.h */,
-				199C606A203615A600B4EC11 /* MaxVASTControls.m */,
-				199C606B203615A600B4EC11 /* MaxVASTError.h */,
-				199C606C203615A600B4EC11 /* MaxVASTEventProcessor.h */,
-				199C606D203615A600B4EC11 /* MaxVASTEventProcessor.m */,
-				199C606E203615A600B4EC11 /* MaxVASTMediaFile.h */,
-				199C606F203615A600B4EC11 /* MaxVASTMediaFile.m */,
-				199C6070203615A600B4EC11 /* MaxVASTMediaFilePicker.h */,
-				199C6071203615A600B4EC11 /* MaxVASTMediaFilePicker.m */,
-				199C6072203615A600B4EC11 /* MaxVASTModel.h */,
-				199C6073203615A600B4EC11 /* MaxVASTModel.m */,
-				199C6074203615A600B4EC11 /* MaxVASTSchema.h */,
-				199C6075203615A600B4EC11 /* MaxVASTSettings.h */,
-				199C6076203615A600B4EC11 /* MaxVASTSettings.m */,
-				199C6077203615A600B4EC11 /* MaxVASTUrlWithId.h */,
-				199C6078203615A600B4EC11 /* MaxVASTUrlWithId.m */,
-				199C6079203615A600B4EC11 /* MaxVASTViewController.h */,
-				199C607A203615A600B4EC11 /* MaxVASTViewController.m */,
-				199C607B203615A600B4EC11 /* MaxVASTXMLUtil.h */,
-				199C607C203615A600B4EC11 /* MaxVASTXMLUtil.m */,
-			);
-			path = src;
 			sourceTree = "<group>";
 		};
 		199C6083203615A600B4EC11 /* Utility */ = {
