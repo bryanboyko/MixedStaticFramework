@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		198058DF2034EFA4003DD86C /* MixedStaticFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 198058DE2034EFA4003DD86C /* MixedStaticFramework.m */; };
-		198058E02034EFA4003DD86C /* MixedStaticFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 198058DD2034EFA4003DD86C /* MixedStaticFramework.h */; };
+		1980590820350ECA003DD86C /* SwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980590420350ECA003DD86C /* SwiftFile.swift */; };
+		1980590920350ECA003DD86C /* SwiftFileNoObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980590620350ECA003DD86C /* SwiftFileNoObjC.swift */; };
+		1980590A20350ECA003DD86C /* ObjCFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1980590720350ECA003DD86C /* ObjCFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +19,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				198058E02034EFA4003DD86C /* MixedStaticFramework.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +26,11 @@
 
 /* Begin PBXFileReference section */
 		198058DA2034EFA4003DD86C /* libMixedStaticFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMixedStaticFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		198058DD2034EFA4003DD86C /* MixedStaticFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixedStaticFramework.h; sourceTree = "<group>"; };
-		198058DE2034EFA4003DD86C /* MixedStaticFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixedStaticFramework.m; sourceTree = "<group>"; };
+		1980590420350ECA003DD86C /* SwiftFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFile.swift; sourceTree = "<group>"; };
+		1980590520350ECA003DD86C /* ObjCFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCFile.h; sourceTree = "<group>"; };
+		1980590620350ECA003DD86C /* SwiftFileNoObjC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFileNoObjC.swift; sourceTree = "<group>"; };
+		1980590720350ECA003DD86C /* ObjCFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCFile.m; sourceTree = "<group>"; };
+		1980590B20350EE4003DD86C /* MixedStaticFramework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixedStaticFramework-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,11 @@
 		198058DC2034EFA4003DD86C /* MixedStaticFramework */ = {
 			isa = PBXGroup;
 			children = (
-				198058DD2034EFA4003DD86C /* MixedStaticFramework.h */,
-				198058DE2034EFA4003DD86C /* MixedStaticFramework.m */,
+				1980590520350ECA003DD86C /* ObjCFile.h */,
+				1980590720350ECA003DD86C /* ObjCFile.m */,
+				1980590420350ECA003DD86C /* SwiftFile.swift */,
+				1980590620350ECA003DD86C /* SwiftFileNoObjC.swift */,
+				1980590B20350EE4003DD86C /* MixedStaticFramework-Bridging-Header.h */,
 			);
 			path = MixedStaticFramework;
 			sourceTree = "<group>";
@@ -97,6 +103,7 @@
 				TargetAttributes = {
 					198058D92034EFA4003DD86C = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				198058DF2034EFA4003DD86C /* MixedStaticFramework.m in Sources */,
+				1980590920350ECA003DD86C /* SwiftFileNoObjC.swift in Sources */,
+				1980590820350ECA003DD86C /* SwiftFile.swift in Sources */,
+				1980590A20350ECA003DD86C /* ObjCFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,10 +246,15 @@
 		198058E42034EFA4003DD86C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MixedStaticFramework/MixedStaticFramework-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -248,10 +262,14 @@
 		198058E52034EFA4003DD86C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MixedStaticFramework/MixedStaticFramework-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
