@@ -19,5 +19,8 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '8.0'
   s.static_framework = true
 
+  s.dependency 'mopub-ios-sdk', '>= 4.17.0'
+  s.dependency 'FBAudienceNetwork', '4.27.2'
+
   s.source_files     = 'MixedStaticFramework/**/*.{swift,h,m}'
 end
