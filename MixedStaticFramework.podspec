@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => "MIT", :file => "LICENSE" } 
 
   s.xcconfig         = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-  s.pod_target_xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '$(PODS_TARGET_SRCROOT)/MixedStaticFramework/MixedStaticFramework-Bridging-Header.h' }
+  s.pod_target_xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => '$(PODS_TARGET_SRCROOT)/MixedStaticFramework/Core/ObjC/MixedStaticFramework-Bridging-Header.h' }
   s.libraries        = 'xml2' 
   s.swift_version    = "4.0" 
  
